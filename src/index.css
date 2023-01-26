@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('./asset/Font/IRANSansWeb/IRANSansWeb.woff2') format('woff2'),
+    url('./asset/Font/IRANSansWeb/IRANSansWeb.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('./asset/Font/Yekan/BYekan.woff2') format('woff2'),
+    url('./asset/Font/Yekan/BYekan.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: IRANSansWeb !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiButton-startIcon {
+  margin-left: -1px !important;
+  margin-right: -3px !important;
+}
+
+.Item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #7367f0;
+  padding: 0.5rem 2rem;
+  height: 8vh;
+  color: #7367f0;
+}
+
+/************************ CreateItem *******************/
+
+
+.itemDetail-main-close {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  visibility: hidden;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 0.25s ease, color 0s;
+  height: 100%;
+}
+
+.itemDetail-main-open {
+  visibility: visible;
+  transition: all 0.65s ease, color 0s !important;
+  transform: translateX(0%) !important;
+  position: relative;
+}
+
+.scroll-area {
+  margin: 1rem;
+  position: relative;
+  max-height: 67vh;
+}
+
+.MuiFormLabel-root {
+  color: #7367f0 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #7367f0 !important;
+}
+
+MuiTable-root {
+  border-bottom: 1px solid white !important;
+}
+
+span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+  color: #7367f0 !important;
+}
+
+.MuiFormGroup-root {
+
+  flex-direction: row !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid #7367f0 !important;
+  border-bottom-color: #7367f0 !important;
+}
+
+.MuiInput-underline {
+  border-bottom: 1px solid #7367f0 !important;
+  border-bottom-color: #7367f0 !important;
+}
+
+/************************ end CreateItem *******************/
+
+.MuiTableContainer-root {
+  height: 50vh !important;
+}
+
+.MuiTab-root {
+  padding: 18px 12px !important;
+  color: #7367f0 !important
+}
+
+/************************  input *******************/
+
+/************************  show content *******************/
+
+.showContent {
+  display: flex;
+}
+
+.numerik {
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #7367f0;
+  overflow: hidden;
+  display: inline-block;
+  direction: ltr;
+  box-sizing: border-box;
+  /* margin-top: 14px; */
+  margin-bottom: 14px;
+
+}
+
+.btn-numerik.left {
+  margin: 0px;
+  border: none;
+  background-color: white;
+  border-left: 1px solid #7367f0;
+  padding: 6px 12px;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.btn-numerik.right {
+  margin: 0px;
+  border: none;
+  background-color: white;
+  border-right: 1px solid #7367f0;
+  padding: 6px 12px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.input-numerik {
+  margin: 0px;
+  border: none;
+  height: 27px !important;
+}
+
+.numerik input:focus {
+  outline: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.input-weight {
+  margin: 0px;
+  border: none;
+  height: 27px !important;
+  border: 1px solid #7367f0 !important;
+  margin-bottom: 13px;
+}
+
+.input-weight:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+/************************ end show content *******************/
+.input {
+  margin: 0px;
+  border: none;
+  height: 27px !important;
+  border: 1px solid #7367f0 !important;
+  margin-bottom: 13px;
+  border-radius: 3px;
+}
+.inputError {
+  margin: 0px;
+  border: none;
+  height: 27px !important;
+  border: 1px solid red !important;
+  margin-bottom: 13px;
+  border-radius: 3px;
+}
+.input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.inputError:focus {
+  outline: 0;
+  box-shadow: none;
+}
+ input[type="text"]:disabled.input {
+  margin: 0px;
+  border: none;
+  height: 27px !important;
+  border: 1px solid #ddd !important;
+  margin-bottom: 13px;
+  border-radius: 3px;
+}
+
+.rmdp-input {
+  border: 1px solid #7367f0 !important;
+  border-radius: 6px !important;
+  margin: 10px 0 !important;
+  padding: 16px 5px !important;
+}
+.rmdp-input:disabled {
+  border: 1px solid #f08067 !important;
+  border-radius: 6px !important;
+  margin: 10px 0 !important;
+  padding: 16px 5px !important;
+}

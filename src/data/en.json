@@ -1,0 +1,66 @@
+{
+    "header-title":"Warehouse Equipment",
+    "EngilishLanguage":"English",
+    "persionLanguage":"Persion",
+    
+    "dashbord":"dashbord",
+    "Inventory":"Inventory",
+    "requests":"requests",
+    "reject":"reject product",
+    "store":"stores ",
+    "deficits":"Warehouse deficits",
+
+
+     "tableRow":"row",
+     "tableTitle":"title",
+     "tableInventory":"number",
+     "tablePrice":"total price",
+     "tableAction":"action",
+     "tableCellType":"important",
+     "tableWeight":"weight",
+     "tableRejecttime":"time reject",
+     "tableRequestTime":"request time ",
+     "tableCelStatuseType":"statuse",
+     "tableStore":"store",
+     "tableSoldAmount":"Amount required",
+     "tableCelReason":"reason",
+     "tableActionCell":"cellar action",
+     
+
+     "new":"new",
+     "add":"ADD",
+     "edit":"EDITE",
+     "save":"save",
+     "detail":"detail",
+     "show":"show",
+     "search":"search",
+     "Order":"order",
+     "close":"close",
+ 
+
+     "nameProduction":"titile",
+     "priceProduction":"price",
+     "calculatProduction":"Product calculation based on",
+     "NumberProduction":"number",
+     "weightProduction":"weight",
+     "typeProduction":"Product Type",
+     "rare":"rare",
+     "Normal":"Normal",
+     "uploadPictureProduction":"Load product photo",
+     "Description":"description",
+     "addNewValueProduct":" add new value to product",
+
+
+     "orderMumber":"Order number",
+     "storeSend":"Send to store",
+     "orderMore":"Order more"
+
+
+
+
+
+ 
+
+
+    
+}

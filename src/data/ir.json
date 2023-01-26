@@ -1,0 +1,59 @@
+{
+    "header-title":"تجهیزات انبار",
+    "EngilishLanguage":"انگلیسی",
+    "persionLanguage":"فارسی",
+
+
+    "dashbord":"داشبورد",
+    "Inventory":" موجودی انبار",
+    "requests":"کالاهای درخواستی",
+    "reject":"کالای مرجوعی",
+    "store":"فروشگاه ",
+    "deficits":"کسری انبار",
+
+
+    "tableRow":"ردیف",
+    "tableTitle":"عنوان",
+    "tableInventory":"مقدار",
+    "tablePrice":"مبلغ کل",
+    "tableAction":"اقدامات",
+    "tableCellType":"اهمیت",
+    "tableWeight":"وزن",
+    "tableRejecttime":" تاریخ برگشت",
+    "tableRequestTime":"تاریخ سفارش",
+    "tableCelStatuseType":"وضعیت",
+    "tableStore":"فروشگاه",
+    "tableSoldAmount":"مقدار درخواستی",
+    "tableCelReason":"دلیل",
+     "tableActionCell":"اقدامات انبار",
+
+     
+    "add":"اضافه کردن",
+    "edit":"ویرایش",
+    "save":"ثبت",
+    "detail":"جزییات",
+    "show":"نمایش",
+    "new":"جدید",
+    "search":"جستجو",
+    "Order":"سفارش",
+    "close":"بستن",
+
+
+
+    "nameProduction":"نام محصول ",
+    "priceProduction":"قیمت",
+    "calculatProduction":" محاسبه محصول بر اساس",
+    "NumberProduction":"تعداد",
+    "weightProduction":"وزن",
+    "typeProduction":"نوع کالا",
+    "rare":"کمیاب",
+     "Normal":"معمولی",
+     "uploadPictureProduction":"لود عکس محصول",
+     "Description":"توضیحات",
+     "addNewValueProduct":"اضافه کردن مقادیر جدید به محصول",
+
+
+     "orderMumber":" تعداد سفارش",
+     "storeSend":"ارسال به فروشگاه",
+     "orderMore":" درخواست شارژ کالا  "
+}
